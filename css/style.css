@@ -1,0 +1,279 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* body{
+    
+} */
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bg-header{
+    background-image: url('../assets/img/bg-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.main-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 1em;
+    border: 1px solid yellow;
+}
+
+.name{
+    text-align: center;
+}
+
+.name-text{
+    font-family:  'Julius Sans One', sans-serif;
+    color: white
+}
+
+.cargo-text{
+    font-family:  'Julius Sans One', sans-serif;
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.674);
+    padding: 0.5em 1em;
+    margin-bottom: 1.5em;
+}
+
+.nav-links{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-family:'Archivo Narrow', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 0.3em 0.8em;
+}
+
+.nav-links:hover{
+    background-color: black;
+    color: white;
+}
+
+/* .main{
+    
+    
+} */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkgray; */
+    align-items: center;
+    margin-bottom: 0.5em;
+
+}
+
+.card{
+    width: 90%;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+.about-title{
+    background-color: black;
+    padding: 0.2em;
+    margin: 0.2em 0 0 0; 
+    border: 0.1em solid black;
+}
+.about-title h4{
+    font-family:'Archivo Narrow', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.about-text{
+    border: 0.07em solid black;
+    padding: 0.6em;
+    margin:0 0;
+}
+
+.parrafo{
+    font-family:'Archivo Narrow', sans-serif;
+    text-align: justify;
+    margin: 0.2em 0;
+}
+
+/* ========================HABILIDADES ============================= */ 
+
+.info-trabajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1.5em;
+    
+
+}
+.empresa{
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.fecha-trabajo{
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.experiencia-div{
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.experiencia-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#hr-experiencia{
+    margin: 0 auto;
+    width:60%;
+}
+
+
+/*  ================SKILLS===================== */
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.card-skills{
+    margin: 0 auto;
+    width: 90%;
+    
+    
+}
+.div-img{
+    margin-bottom: -5px;
+}
+.card-img{
+    width: 100%;    
+    margin-bottom: 0px;
+    /* overflow: hidden; */
+}
+
+
+
+.card-body{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.card-body h5{
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 2rem;
+}
+.card-body p{
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 1.5em 1em 1.5em;
+}
+
+
+
+
+
+
+
+/* ======================== SECCION DE CONTACTO================= */
+
+.contacto{
+    width: 100%;
+}
+
+.contacto-title{
+    text-align: center;
+    font-family: 'Archivo Narrow';
+    margin: 0.3em;
+}
+
+
+
+.contacto-correo{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.contacto-correo p{
+    margin: 0.3em;
+}
+
+.correo-title{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+hr{
+    width: 60%;
+    margin: 0.1em;
+}
+
+.correo{
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.redes-iconos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  ========================= FOOTER  ========================== */
+/* Modificar al final */
+
+footer{
+    background-color: black;
+    color: white;
+    font-family:'Archivo Narrow';
+    text-align: center;
+    padding: 2em;
+
+}
+
+small{
+    font-size: 0.7rem;
+}
+
+
+/* ======================MEDIAQUERIES ================================= */
+
+
